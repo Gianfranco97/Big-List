@@ -1,0 +1,47 @@
+@import url("../../../../../styles/colors.less");
+
+.my-list {
+  min-height: 150px;
+  max-width: 100%;
+  overflow-x: auto;
+
+  &__actions {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    button {
+      margin-left: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f1f2f3;
+    }
+  }
+}
+
+.pagination-container {
+  text-align: center;
+
+  .ant-select {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+    .ant-select-selector {
+      background: #f1f2f3 !important;
+    }
+  }
+
+  .ant-pagination-item,
+  .ant-pagination-item-link {
+    border: none !important;
+  }
+
+  .ant-pagination-item-active {
+    background-color: @primary-color;
+
+    a {
+      color: white !important;
+    }
+  }
+}

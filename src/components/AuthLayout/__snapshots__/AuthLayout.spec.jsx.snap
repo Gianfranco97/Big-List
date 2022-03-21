@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The snapshot matches 1`] = `
+<div
+  className="auth-page-container"
+>
+  <div
+    className="auth-form"
+  >
+    <div
+      className="auth-form-logo"
+    >
+      <img
+        alt="Big-Buy"
+        src="logo.svg"
+      />
+    </div>
+    <div />
+  </div>
+</div>
+`;

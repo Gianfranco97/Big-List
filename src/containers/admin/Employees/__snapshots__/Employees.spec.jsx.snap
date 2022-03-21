@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The snapshot matches 1`] = `
+<section
+  className="ant-layout admin-layout"
+>
+  <section
+    className="ant-layout"
+  >
+    <header
+      className="ant-layout-header admin-layout__header"
+    >
+      <img
+        alt="Big Buy"
+        src="logo.svg"
+      />
+      <span
+        aria-label="logout"
+        className="anticon anticon-logout admin-layout__header__logout"
+        onClick={[Function]}
+        role="img"
+        tabIndex={-1}
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="logout"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M868 732h-70.3c-4.8 0-9.3 2.1-12.3 5.8-7 8.5-14.5 16.7-22.4 24.5a353.84 353.84 0 01-112.7 75.9A352.8 352.8 0 01512.4 866c-47.9 0-94.3-9.4-137.9-27.8a353.84 353.84 0 01-112.7-75.9 353.28 353.28 0 01-76-112.5C167.3 606.2 158 559.9 158 512s9.4-94.2 27.8-137.8c17.8-42.1 43.4-80 76-112.5s70.5-58.1 112.7-75.9c43.6-18.4 90-27.8 137.9-27.8 47.9 0 94.3 9.3 137.9 27.8 42.2 17.8 80.1 43.4 112.7 75.9 7.9 7.9 15.3 16.1 22.4 24.5 3 3.7 7.6 5.8 12.3 5.8H868c6.3 0 10.2-7 6.7-12.3C798 160.5 663.8 81.6 511.3 82 271.7 82.6 79.6 277.1 82 516.4 84.4 751.9 276.2 942 512.4 942c152.1 0 285.7-78.8 362.3-197.7 3.4-5.3-.4-12.3-6.7-12.3zm88.9-226.3L815 393.7c-5.3-4.2-13-.4-13 6.3v76H488c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h314v76c0 6.7 7.8 10.5 13 6.3l141.9-112a8 8 0 000-12.6z"
+          />
+        </svg>
+      </span>
+    </header>
+    <main
+      className="ant-layout-content admin-layout__content"
+    >
+      <main>
+        <div
+          className="employees-list"
+        >
+          <span
+            className="ant-input-affix-wrapper ant-input-affix-wrapper-lg"
+            onMouseUp={[Function]}
+          >
+            <span
+              className="ant-input-prefix"
+            >
+              <img
+                alt=""
+                src="search-icon.svg"
+              />
+            </span>
+            <input
+              className="ant-input"
+              hidden={null}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Buscar..."
+              style={null}
+              type="text"
+              value=""
+            />
+          </span>
+          <button
+            className="ant-btn ant-btn-link employees-list__filter-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            <span>
+              + Filtros
+            </span>
+          </button>
+        </div>
+        <button
+          className="ant-btn ant-btn-default employees-list__add-btn btn-yellow"
+          onClick={[Function]}
+          type="button"
+        >
+          <img
+            alt=""
+            src="add-user-icon.svg"
+          />
+          <span>
+            Nuevo empleado
+          </span>
+        </button>
+        <div
+          className="ant-table-wrapper my-list"
+        >
+          <div
+            className="ant-spin-nested-loading"
+          >
+            <div>
+              <div
+                className="ant-spin ant-spin-spinning"
+              >
+                <span
+                  className="ant-spin-dot ant-spin-dot-spin"
+                >
+                  <i
+                    className="ant-spin-dot-item"
+                  />
+                  <i
+                    className="ant-spin-dot-item"
+                  />
+                  <i
+                    className="ant-spin-dot-item"
+                  />
+                  <i
+                    className="ant-spin-dot-item"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              className="ant-spin-container ant-spin-blur"
+            >
+              <div
+                className="ant-table ant-table-empty ant-table-has-fix-right"
+              >
+                <div
+                  className="ant-table-container"
+                >
+                  <div
+                    className="ant-table-content"
+                    onScroll={[Function]}
+                    style={Object {}}
+                  >
+                    <table
+                      style={
+                        Object {
+                          "tableLayout": "auto",
+                        }
+                      }
+                    >
+                      <colgroup />
+                      <thead
+                        className="ant-table-thead"
+                      >
+                        <tr>
+                          <th
+                            className="ant-table-cell"
+                            colSpan={null}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            rowSpan={null}
+                            style={Object {}}
+                          >
+                            NOMBRE
+                          </th>
+                          <th
+                            className="ant-table-cell"
+                            colSpan={null}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            rowSpan={null}
+                            style={Object {}}
+                          >
+                            EDAD
+                          </th>
+                          <th
+                            className="ant-table-cell"
+                            colSpan={null}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            rowSpan={null}
+                            style={Object {}}
+                          >
+                            SALARIO
+                          </th>
+                          <th
+                            className="ant-table-cell"
+                            colSpan={null}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            rowSpan={null}
+                            style={Object {}}
+                          >
+                            EMAIL
+                          </th>
+                          <th
+                            className="ant-table-cell ant-table-cell-fix-right ant-table-cell-fix-right-first"
+                            colSpan={null}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            rowSpan={null}
+                            style={
+                              Object {
+                                "position": "sticky",
+                                "right": 0,
+                                "textAlign": "right",
+                              }
+                            }
+                          >
+                            ACCIONES
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody
+                        className="ant-table-tbody"
+                      >
+                        <tr
+                          className="ant-table-placeholder"
+                          style={
+                            Object {
+                              "display": null,
+                            }
+                          }
+                        >
+                          <td
+                            className="ant-table-cell"
+                            colSpan={5}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            rowSpan={null}
+                            style={Object {}}
+                          >
+                            <div
+                              className="ant-empty ant-empty-normal"
+                            >
+                              <div
+                                className="ant-empty-image"
+                              >
+                                <svg
+                                  className="ant-empty-img-simple"
+                                  height="41"
+                                  viewBox="0 0 64 41"
+                                  width="64"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g
+                                    fill="none"
+                                    fillRule="evenodd"
+                                    transform="translate(0 1)"
+                                  >
+                                    <ellipse
+                                      className="ant-empty-img-simple-ellipse"
+                                      cx="32"
+                                      cy="33"
+                                      rx="32"
+                                      ry="7"
+                                    />
+                                    <g
+                                      className="ant-empty-img-simple-g"
+                                      fillRule="nonzero"
+                                    >
+                                      <path
+                                        d="M55 12.76L44.854 1.258C44.367.474 43.656 0 42.907 0H21.093c-.749 0-1.46.474-1.947 1.257L9 12.761V22h46v-9.24z"
+                                      />
+                                      <path
+                                        className="ant-empty-img-simple-path"
+                                        d="M41.613 15.931c0-1.605.994-2.93 2.227-2.931H55v18.137C55 33.26 53.68 35 52.05 35h-40.1C10.32 35 9 33.259 9 31.137V13h11.16c1.233 0 2.227 1.323 2.227 2.928v.022c0 1.605 1.005 2.901 2.237 2.901h14.752c1.232 0 2.237-1.308 2.237-2.913v-.007z"
+                                      />
+                                    </g>
+                                  </g>
+                                </svg>
+                              </div>
+                              <div
+                                className="ant-empty-description"
+                              >
+                                No Data
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="pagination-container"
+        >
+          <div
+            className="ant-select ant-select-single ant-select-show-arrow"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+          >
+            <div
+              className="ant-select-selector"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <span
+                className="ant-select-selection-search"
+              >
+                <input
+                  aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                  aria-autocomplete="list"
+                  aria-controls="rc_select_TEST_OR_SSR_list"
+                  aria-haspopup="listbox"
+                  aria-owns="rc_select_TEST_OR_SSR_list"
+                  autoComplete="off"
+                  className="ant-select-selection-search-input"
+                  id="rc_select_TEST_OR_SSR"
+                  onChange={[Function]}
+                  onCompositionEnd={[Function]}
+                  onCompositionStart={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onPaste={[Function]}
+                  readOnly={true}
+                  role="combobox"
+                  style={
+                    Object {
+                      "opacity": 0,
+                    }
+                  }
+                  type="search"
+                  unselectable="on"
+                  value=""
+                />
+              </span>
+              <span
+                className="ant-select-selection-item"
+                title="5"
+              >
+                5
+              </span>
+            </div>
+            <span
+              aria-hidden={true}
+              className="ant-select-arrow"
+              onMouseDown={[Function]}
+              style={
+                Object {
+                  "WebkitUserSelect": "none",
+                  "userSelect": "none",
+                }
+              }
+              unselectable="on"
+            >
+              <span
+                aria-label="down"
+                className="anticon anticon-down ant-select-suffix"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="down"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                  />
+                </svg>
+              </span>
+            </span>
+          </div>
+          <ul
+            className="ant-pagination"
+            style={Object {}}
+            unselectable="unselectable"
+          >
+            <li
+              aria-disabled={true}
+              className="ant-pagination-prev ant-pagination-disabled"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={null}
+              title="Previous Page"
+            >
+              <button
+                className="ant-pagination-item-link"
+                disabled={true}
+                tabIndex={-1}
+                type="button"
+              >
+                <span
+                  aria-label="left"
+                  className="anticon anticon-left"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="left"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </li>
+            <li
+              className="ant-pagination-item ant-pagination-item-1 ant-pagination-item-disabled"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex="0"
+              title={1}
+            >
+              <a
+                rel="nofollow"
+              >
+                1
+              </a>
+            </li>
+            <li
+              aria-disabled={true}
+              className="ant-pagination-next ant-pagination-disabled"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={null}
+              title="Next Page"
+            >
+              <button
+                className="ant-pagination-item-link"
+                disabled={true}
+                tabIndex={-1}
+                type="button"
+              >
+                <span
+                  aria-label="right"
+                  className="anticon anticon-right"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="right"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="ant-modal-root"
+        >
+          <div
+            aria-labelledby="rcDialogTitle0"
+            className="ant-modal-wrap"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="dialog"
+            style={
+              Object {
+                "display": "none",
+                "zIndex": undefined,
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </main>
+    </main>
+    <footer
+      className="ant-layout-footer"
+    >
+      Gianfranco Manganiello ©2022
+    </footer>
+  </section>
+</section>
+`;
