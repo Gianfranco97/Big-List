@@ -116,7 +116,7 @@ function EmployeesPage() {
 
   useEffect(() => {
     filterData();
-  }, [data]);
+  }, [data, filterNameAndEmail, filterAge, filterSalaryMin, filterSalaryMax]);
 
   return (
     <AdminLayout>
